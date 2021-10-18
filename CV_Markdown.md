@@ -11,7 +11,7 @@
 <!--Infos principales-->
 
 ```
-Déterminer à changer de vie, marquer le monde numérique de mon emprunte, un univers qui me ressemble et qui m'inspire.
+Déterminer à changer de vie, marquer le monde numérique de mon empreinte, un univers qui me ressemble et qui m'inspire.
 ```
 
 ## FORMATION  
