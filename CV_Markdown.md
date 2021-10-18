@@ -1,10 +1,18 @@
 # Julien Dufour
-Apprenti Developpeur
+### Apprenti Developpeur
+
+![This is a alt text.](teamju.jpg "Team Ju")
 
 #### Née le 24 Juin 1992 à Rouen
-#### Tel 06.75.16.59.94
+#### Marié, sans enfant
+#### Tel 06.75.16.59.94  
+#### Permis A et B
 
+<!--Infos principales-->
+
+```
 Déterminer à changer de vie, marquer le monde numérique de mon emprunte, un univers qui me ressemble et qui m'inspire.
+```
 
 ## FORMATION  
 
@@ -35,6 +43,23 @@ MAHLOC, Grand-quevilly
 *2013-2015*
 <!-- Bloc experience-->
 
+## INTERETS
+
+* __E-sports__  
+ 
+* __Cuisine__  
+
+* __Nouvelles technologies__  
+
+<!-- Bloc hobbies-->
+
+|  __Réseaux Sociaux__ |  |
+| ------------- |:-------------:|
+| Linkedin    | julien-dufour76   |
+| Twitter      | @Lygan_     |
+| Discord      | Lygan#8217   |
+<!-- Bloc reseaux sociaux-->
+
 ## COMPETENCES
 |  Langues |  |
 | ------------- |:-------------:|
@@ -50,9 +75,4 @@ MAHLOC, Grand-quevilly
 |   Javascript    | Low 
 | Adobe Indesign,Photoshop, Illustrator      |  Medium  |
 <!--Bloc skills-->
-|  __Réseaux Sociaux__ |  |
-| ------------- |:-------------:|
-| Linkedin    | julien-dufour76   |
-| Twitter      | @Lygan_     |
-| Discord      | Lygan#8217   |
-<!-- Bloc reseaux sociaux-->
+
