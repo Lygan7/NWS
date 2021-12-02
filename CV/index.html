@@ -5,31 +5,68 @@
     <meta charset="utf-8">
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/bootstrap.min.css">  
-    <!-- Theme CSS -->  
-    <link rel="stylesheet" href="assets/style.css">
-</head> 
+    <!-- CSS -->  
+    <link  href="assets/style.css" rel="stylesheet">
+    <!-- Icones Boostrap-->
+    <link href="assets/icons-1.7.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
 
 <body>
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
-                <img class="profile" src="assets/photo_cv.jfif" alt="Photo de profil" />
+                <img class="photo" src="assets/photo_cv.jfif" alt="Photo de profil" />
                 <h1 class="name">Julien Dufour</h1>
-                <h3 class="tagline">Apprenti developpeur</h3>
+                <h3 class="tagline">Chef de projet digital</h3>
             </div><!--//profil-->
-            
-            <div class="contact-container container">
-                <ul class="list-unstyled contact-list">
-                    <li class="email"><a href="mailto: julien.dufour76@gmail.com">julien.dufour76@gmail.com</a></li>
-                    <li class="phone"><a href="tel:06 75 16 59 94">06.75.16.59.94</a></li>
-                    <li class="linkedin"><a href="#" target="_blank">linkedin.com/julien-dufour76</a></li>
-                    <li class="github"><a href="#" target="_blank">github.com/Lygan</a></li>
-                    <li class="twitter"><a href="https://twitter.com/Lygan_" target="_blank">@Lygan_</a></li>
+            <section class="skills-section section">
+                <h2>Skills</h2>
+                <div class="skillset">         
+                        <h6>HTML5 &amp; CSS</h6>   
+                                                    
+                        <h6>Illustrator &amp; Photoshop</h6>                                 
+                </div><!--skillset-->
+            </section><!--skills-section-->
+            <div>
+                <h2>Contact</h2>
+                <ul class="contact">
+                    <li class="email"><i class="bi bi-envelope"></i><a href="mailto: julien.dufour76@gmail.com"> julien.dufour76@gmail.com</a></li>
+                    <li class="phone"><i class="bi bi-telephone"></i><a href="tel:0675165994"> 06.75.16.59.94</a></li>
+                    <li class="linkedin"><i class="bi bi-linkedin"></i><a href="#" target="_blank"> linkedin.com/julien-dufour76</a></li>
+                    <li class="github"><i class="bi bi-github"></i><a href="#" target="_blank"> github.com/Lygan</a></li>
+                    <li class="twitter"><i class="bi bi-twitter"></i><a href="https://twitter.com/Lygan_" target="_blank"> @Lygan_</a></li>
                 </ul>
             </div><!--//contact-->
-            <div class="container">
+
+            
+            <div class="languages-container">
+                <h2>Languages</h2>
+                <ul class="interests-list">
+                    <li>Français (Native)</li>
+                    <li>Anglais</li>
+                    
+                </ul>
+            </div><!--//interets-->
+            
+            <div class="interests">
+                <h2>Interests</h2>
+                <ul>
+                    <li>Jeux video & E-sport</li>
+                    <li>Tech</li>
+                    <li>Cuisine</li>
+                </ul>
+            </div><!--//interets-->
+            
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <header class="profile">
+                <h2>Profile</h2>
+                <div class="summary">
+                    <p>Après quelques années dans le domaine de la Logistique, je change de domaine pour un domaine qui me correspond mieux</p>                </div><!--//summary-->
+                </header><!--//profil-->
+            <div class="formation">
                 <h2>Formation</h2>
                 <div class="item">
                     <h4 class="degree">BTS Assistant de gestion</h4>
@@ -42,35 +79,6 @@
                     <div class="time">2008 - 2011</div>
                 </div><!--//item-->
             </div><!--//formation-->
-            
-            <div class="languages-container container">
-                <h2>Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Français (Native)</li>
-                    <li>Anglais</li>
-                    
-                </ul>
-            </div><!--//interets-->
-            
-            <div class="interests-container container">
-                <h2>Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Jeux video & E-sport</li>
-                    <li>Tech</li>
-                    <li>Cuisine</li>
-                </ul>
-            </div><!--//interets-->
-            
-        </div><!--//sidebar-wrapper-->
-        
-        <div class="main-wrapper">
-            
-            <section class="section summary-section">
-                <h2>Profile</h2>
-                <div class="summary">
-                    <p>Après quelques années dans le domaine de la Logistique, je change de domaine pour un domaine qui me correspond mieux</p>                </div><!--//summary-->
-            </section><!--//profil-->
-            
             <section class="section experiences-section">
                 <h2>Experiences</h2>
                 
@@ -86,8 +94,8 @@
                         <p>En charge du planning de livraison</p>  
                         <p>Responsable qualité & sécurité</p>
                         <P>Responsable Achat & vente</P>
-                    </div><!--//details-->
-                </div><!--//item-->
+                    </div><!--details-->
+                </div><!--item-->
                 
                 <div class="item">
                     <div class="meta">
@@ -116,16 +124,6 @@
                     <p>Future projets à ajouter</p>
                 </div>
             </section><!--projet-->
-            
-            <section class="skills-section section">
-                <h2>Skills</h2>
-                <div class="skillset">         
-                        <h6>HTML5 &amp; CSS</h6>                                  
-                        <h6>Javascript</h6>                             
-                        <h6>Boostrap</h6>                                
-                        <h6>Illustrator &amp; Photoshop</h6>                                 
-                </div><!--skillset-->
-            </section><!--skills-section-->
             
         </div><!--body-->
     </div>
