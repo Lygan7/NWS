@@ -25,8 +25,31 @@ body {
     margin: 0;
     padding: 0;
   }
+  .test .test1 {
+    color: #fff;
+    display: flex;
+    position: ;
+    width: 30px;
+  }
+  .test {
+    width: 50%;
+    padding: 20px;
+    margin-top: 500px;
+    align-content: center;
+  }
+  
   .photo {
-    border-radius: 400px;
+    display: flex;
+    border-radius: 75px;
+    right: 0;  }
+
+  .test {
+    background-color: #4B6A78;
+    margin-left: 380px;
+    display: block;
+    position: absolute;
+    width: 360px;
+    height: 180px;
   }
   .contact {
     color: #fff;
@@ -42,7 +65,7 @@ body {
   font-style: italic;
 }
 
-  .wrapper {
+.wrapper {
     display: flex;
     background: #4B6A78;
     max-width: 960px;
