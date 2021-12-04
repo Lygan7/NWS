@@ -2,9 +2,13 @@ body {
     font-family: "Roboto", sans-serif;
     color: #545E6C;
     background: #ffffff;
+    max-width: 1140;
     position: relative;
   }
   
+  h1, h6 {
+    font-weight: 700;
+  }
   
   a {
     color: #ffff;
@@ -21,20 +25,23 @@ body {
     margin: 0;
     padding: 0;
   }
- header {
-   background-color: #4B6A78;
- }
+  .test .test1 {
+    color: #fff;
+    display: flex;
+    position: ;
+    width: 30px;
+  }
+  .test {
+    width: 50%;
+    padding: 20px;
+    margin-top: 500px;
+    align-content: center;
+  }
   
- .profile {
-   position: absolute; 
-   width: inherit;
-   left: 0 ; <!---- HERE
- }
   .photo {
     display: flex;
     border-radius: 75px;
-    margin-left: 10px;
-    }
+    right: 0;  }
 
   .test {
     background-color: #4B6A78;
@@ -59,24 +66,30 @@ body {
 }
 
 .wrapper {
-    display: flex;
+    display: grid;
     background: #4B6A78;
+    max-width: 960px;
     margin: 0 auto;
+    position: absolute;
   }
   .header {
     background-color:#4B6A78 ;
   }
   .sidebar-wrapper {
+    display: block;
     background: #4B6A78;
-    padding: auto;
+    position: absolute;
+    right: 0;
+    width: 240px;
     height: 100%;
-    margin-left: 50px;
+    min-height: 800px;
     color: #fff;
+    padding-left: 50px;
   }
   .main-wrapper {
     background: #fff;
-    padding-top: 0;
-    padding-left: 30px;
+    padding: 60px;
+    padding-right: 300px;
   }
   .main-wrapper .section-title {
     text-transform: uppercase;
@@ -109,7 +122,7 @@ body {
     font-weight: 500;
   }
   
- .ets {
+ .company {
     margin-bottom: 10px;
     color: #97AAC3;
   }
