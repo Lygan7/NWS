@@ -5,12 +5,18 @@ body {
     position: relative;
   }
   
-  
+  :root {
+    --color1: #fffff8;
+    --color2: #4B6A78;
+  }
   a {
-    color: #ffff;
+    color: var(--color1);
     text-decoration: none;
   }
-
+  a:hover {
+    text-decoration: underline;
+    color: #10171a;
+  }
   p {
     line-height: 1.5;
   }
@@ -21,14 +27,24 @@ body {
     margin: 0;
     padding: 0;
   }
- header {
-   background-color: #4B6A78;
- }
-  
+  .name {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .formation-skills {
+    padding: 20px;
+    background-color: var(--color2);
+    display: block;
+    color: var(--color1);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
  .profile {
-   position: absolute; 
-   width: inherit;
-   left: 0 ; <!---- HERE
+   position: flex; 
+   padding: 0;
+   margin: 0;
  }
   .photo {
     display: flex;
@@ -36,19 +52,13 @@ body {
     margin-left: 10px;
     }
 
-  .test {
-    background-color: #4B6A78;
-    margin-left: 380px;
-    display: block;
-    position: absolute;
-    width: 360px;
-    height: 180px;
-  }
-  .contact {
-    color: #fff;
+  .contact, .languages, .interets{
+    padding-top: 20px;
+    padding-bottom: px;
+    color:var(--color1);
     text-decoration: none;
   }
-  
+ 
  .photo {
   display: flex;
   margin-top: 10px;
@@ -60,21 +70,23 @@ body {
 
 .wrapper {
     display: flex;
-    background: #4B6A78;
+    background: var(--color2);
     margin: 0 auto;
   }
   .header {
-    background-color:#4B6A78 ;
+    background-color:var(--color2) ;
   }
   .sidebar-wrapper {
-    background: #4B6A78;
-    padding: auto;
+    background:var(--color2);
+    position: absolute;
+    right: 0;
+    width: 250px;
     height: 100%;
-    margin-left: 50px;
-    color: #fff;
+    padding-left: 25px;
+    color: var(--color1);
   }
   .main-wrapper {
-    background: #fff;
+    background:var(--color1);
     padding-top: 0;
     padding-left: 30px;
   }
@@ -82,8 +94,9 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: #2e4049;
+    color: var(--color2);
     position: relative;
+    top: -8px;
     margin-top: 0;
     margin-bottom: 20px;
     display: flex;
@@ -91,7 +104,7 @@ body {
     height: 30px;
     margin-right: 10px;
     display: inline-block;
-    color: #fff;
+    color: var(--color1);
   }
   .main-wrapper {
     font-size: 14px;
@@ -113,7 +126,6 @@ body {
     margin-bottom: 10px;
     color: #97AAC3;
   }
-
   
   @media (max-width: 760px) {
     .sidebar-wrapper {
